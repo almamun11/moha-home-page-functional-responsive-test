@@ -1,0 +1,115 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - button [ref=e6] [cursor=pointer]
+          - generic [ref=e10]:
+            - link "logo" [ref=e12] [cursor=pointer]:
+              - /url: https://uat-moha.oss.net.bd
+              - img "logo" [ref=e13] [cursor=pointer]
+            - generic [ref=e14]:
+              - heading "Security Services Division" [level=4] [ref=e15]
+              - paragraph [ref=e16]: Ministry of Home Affairs (MoHA)
+        - text: 
+  - generic [ref=e17]:
+    - heading "Online Security Clearance System" [level=4] [ref=e23]
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - heading "Citizen Service" [level=2] [ref=e28]:
+          - img [ref=e29]
+          - text: Citizen Service
+        - paragraph [ref=e34]: Essential services for citizens and residents
+      - generic [ref=e35]:
+        - generic [ref=e37]:
+          - img [ref=e39]
+          - generic [ref=e45]:
+            - heading "Dual Citizenship" [level=3] [ref=e46]
+            - generic [ref=e47]:
+              - link " Download Guideline" [ref=e48] [cursor=pointer]:
+                - /url: https://uat-moha.oss.net.bd/uploads/serviceForms/NTRC (1).pdf
+                - generic [ref=e49] [cursor=pointer]: 
+                - text: Download Guideline
+              - link " Apply Now" [ref=e50] [cursor=pointer]:
+                - /url: https://uat-moha.oss.net.bd/auth/google?service=J4Af2FUBYAmnM3KAFU-PGeOQHZ_szS9QAhwDRxIyM5I
+                - generic [ref=e51] [cursor=pointer]: 
+                - text: Apply Now
+        - generic [ref=e53]:
+          - img [ref=e55]
+          - generic [ref=e57]:
+            - heading "Police Clearance (Spain)" [level=3] [ref=e58]
+            - link " Apply Now" [ref=e60] [cursor=pointer]:
+              - /url: https://uat-moha.oss.net.bd/auth/google?service=MtatVkf_fJusleF0IzjhaOlVhAdJJWEHqA1ENzOh-ok
+              - generic [ref=e61] [cursor=pointer]: 
+              - text: Apply Now
+      - generic [ref=e63]:
+        - img [ref=e65]
+        - generic [ref=e69]:
+          - heading "Bangladesh Citizenship" [level=3] [ref=e70]
+          - generic [ref=e71]:
+            - link " Download Guideline" [ref=e72] [cursor=pointer]:
+              - /url: https://uat-moha.oss.net.bd/uploads/serviceForms/Foreign security user manual.pdf
+              - generic [ref=e73] [cursor=pointer]: 
+              - text: Download Guideline
+            - link " Apply Now" [ref=e74] [cursor=pointer]:
+              - /url: https://uat-moha.oss.net.bd/auth/google?service=1QwUUQcQaw82bOOeNQCGqIZPX7SLNTWouSm99mI0qfE
+              - generic [ref=e75] [cursor=pointer]: 
+              - text: Apply Now
+      - generic [ref=e76]:
+        - heading "Inter-Ministry Service" [level=2] [ref=e77]:
+          - img [ref=e78]
+          - text: Inter-Ministry Service
+        - paragraph [ref=e86]: Specialized services for government and institutional use
+      - generic [ref=e87]:
+        - generic [ref=e89]:
+          - img [ref=e91]
+          - heading "Foreigner Security Clearance" [level=3] [ref=e96]
+        - generic [ref=e98]:
+          - img [ref=e100]
+          - generic [ref=e108]:
+            - heading "Security Clearance for Govt. Job" [level=3] [ref=e109]
+            - generic [ref=e110]:
+              - link " Download Guideline" [ref=e111] [cursor=pointer]:
+                - /url: https://uat-moha.oss.net.bd/uploads/serviceForms/NTRC (1).pdf
+                - generic [ref=e112] [cursor=pointer]: 
+                - text: Download Guideline
+              - link " Apply Now" [ref=e113] [cursor=pointer]:
+                - /url: https://uat-moha.oss.net.bd/admin-login
+                - generic [ref=e114] [cursor=pointer]: 
+                - text: Apply Now
+  - contentinfo [ref=e115]:
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - heading "Important Links" [level=4] [ref=e119]
+          - list [ref=e120]:
+            - listitem [ref=e121]:
+              - link "Ministry of Home Affairs" [ref=e122] [cursor=pointer]:
+                - /url: https://ssd.gov.bd/
+            - listitem [ref=e123]:
+              - link "Bangladesh Investment Development Authority" [ref=e124] [cursor=pointer]:
+                - /url: https://www.bida.gov.bd/
+            - listitem [ref=e125]:
+              - link "Bangladesh Economic Zones Authority" [ref=e126] [cursor=pointer]:
+                - /url: https://oss.beza.gov.bd/
+            - listitem [ref=e127]:
+              - link "Bangladesh Export Processing Zones Authority" [ref=e128] [cursor=pointer]:
+                - /url: https://www.bepza.gov.bd/
+            - listitem [ref=e129]:
+              - link "Bangladesh Hi-Tech Park Authority" [ref=e130] [cursor=pointer]:
+                - /url: https://bhtpa.gov.bd/
+        - generic [ref=e131]:
+          - heading "Others" [level=4] [ref=e132]
+          - list [ref=e133]:
+            - listitem [ref=e134]:
+              - link "Privacy Policy" [ref=e135] [cursor=pointer]:
+                - /url: https://uat-moha.oss.net.bd/privacy-policy
+            - listitem [ref=e136]:
+              - link "Terms of Condition" [ref=e137] [cursor=pointer]:
+                - /url: https://uat-moha.oss.net.bd/terms-of-condition
+      - separator [ref=e138]
+      - generic [ref=e140]: © 2025 Security Service Division, Ministry of Home Affairs (MoHA). All rights reserved.
+```

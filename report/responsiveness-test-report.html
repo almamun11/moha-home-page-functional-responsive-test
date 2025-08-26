@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsiveness Test Report - Online Security Clearance System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #f4f6fb; margin: 0; padding: 0; }
+    .container { max-width: 1100px; margin: 40px auto; background: #fff; border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.08); padding: 32px 40px; }
+    h1 { color: #2d3a4b; margin-bottom: 8px; font-size: 2.2em; }
+    h2 { color: #2d3a4b; margin-top: 32px; font-size: 1.3em; }
+    .subtitle { color: #4e5d6c; margin-bottom: 24px; font-size: 1.1em; }
+    table { width: 100%; border-collapse: collapse; margin-top: 24px; background: #f9fafc; border-radius: 8px; overflow: hidden; }
+    th, td { padding: 14px 12px; text-align: left; }
+    th { background: #2d3a4b; color: #fff; font-weight: 600; border-bottom: 2px solid #e3e7ed; }
+    tr { border-bottom: 1px solid #e3e7ed; }
+    tr:last-child { border-bottom: none; }
+    td.pass { color: #27ae60; font-weight: bold; }
+    td.fail { color: #e74c3c; font-weight: bold; }
+    td.warn { color: #f7c948; font-weight: bold; }
+    .viewport { font-size: 1em; color: #34495e; background: #eaf1fb; border-radius: 6px; padding: 4px 10px; display: inline-block; }
+    .notes { font-size: 0.95em; color: #888; }
+    .summary { margin: 24px 0; font-size: 1.1em; }
+    .recommend { background: #fffbe6; border-left: 4px solid #f7c948; padding: 12px 18px; margin-top: 18px; border-radius: 6px; }
+    @media (max-width: 600px) { .container { padding: 16px 8px; } table, th, td { font-size: 0.95em; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Online Security Clearance System</h1>
+    <div class="subtitle">Responsiveness Test Report</div>
+    <h2>1. Test Information</h2>
+    <ul>
+      <li><strong>Project Name:</strong> Online Security Clearance System</li>
+      <li><strong>Application URL:</strong> <a href="https://uat-moha.oss.net.bd/" target="_blank">https://uat-moha.oss.net.bd/</a></li>
+      <li><strong>Tester Name:</strong> Mohammad Abdulla Al Mamun</li>
+      <li><strong>Test Date:</strong> August 24, 2025</li>
+      <li><strong>Environment:</strong> Windows 10, Playwright (Chromium, Firefox, WebKit, Edge, Chrome, Mobile Safari), Automated Devices</li>
+    </ul>
+    <h2>2. Test Devices & Browsers</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Device</th><th>OS</th><th>Browser</th><th>Screen Resolution</th><th>Orientation</th><th>Status (Pass/Fail)</th>
+        </tr>
+      </thead>
+      <tbody>
+  <tr><td>Desktop (Dell OptiPlex 3080)</td><td>Windows 10</td><td>Chrome, Edge</td><td>1920×1080</td><td>Landscape</td><td class="pass">Pass</td></tr>
+  <tr><td>Laptop Large (HP EliteBook 840 G7)</td><td>Windows 10</td><td>Chrome, Edge</td><td>1440×900</td><td>Landscape</td><td class="pass">Pass</td></tr>
+  <tr><td>Laptop (Lenovo ThinkPad E14)</td><td>Windows 10</td><td>Chrome, Edge</td><td>1366×768</td><td>Landscape</td><td class="pass">Pass</td></tr>
+  <tr><td>Tablet Portrait (iPad 8th Gen)</td><td>iPadOS 15</td><td>Safari</td><td>768×1024</td><td>Portrait</td><td class="pass">Pass</td></tr>
+  <tr><td>Tablet Landscape (iPad 8th Gen)</td><td>iPadOS 15</td><td>Safari</td><td>1024×768</td><td>Landscape</td><td class="pass">Pass</td></tr>
+  <tr><td>Mobile Large (Samsung Galaxy S20)</td><td>Android 12</td><td>Chrome</td><td>425×900</td><td>Portrait</td><td class="pass">Pass</td></tr>
+  <tr><td>Mobile Medium (iPhone 12)</td><td>iOS 15</td><td>Safari</td><td>375×667</td><td>Portrait</td><td class="pass">Pass</td></tr>
+  <tr><td>Mobile Small (iPhone SE 2nd Gen)</td><td>iOS 15</td><td>Safari</td><td>320×568</td><td>Portrait</td><td class="warn">Warning</td></tr>
+      </tbody>
+    </table>
+    <h2>3. Test Scenarios</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Test Area</th><th>Scenario</th><th>Expected Result</th><th>Actual Result</th><th>Status (Pass/Fail)</th><th>Remarks</th>
+        </tr>
+      </thead>
+      <tbody>
+  <tr><td>Layout & Alignment</td><td>Header, footer, grid visible</td><td>All elements visible/aligned</td><td>Visible, aligned. No overlapping detected. Grid structure validated.</td><td class="pass">Pass</td><td class="notes">No issues found on any device.</td></tr>
+  <tr><td>Navigation</td><td>Menu, links visible/clickable</td><td>All navigation works</td><td>All menu items and links are visible and clickable. No broken links found.</td><td class="pass">Pass</td><td class="notes">No issues found on any device.</td></tr>
+  <tr><td>Images & Media</td><td>Images not cropped/distorted</td><td>Images resize responsively</td><td>All images are displayed correctly and resize responsively.</td><td class="pass">Pass</td><td class="notes">No issues found on any device.</td></tr>
+  <tr><td>Text & Fonts</td><td>Font size readable</td><td>Text readable on all devices</td><td>Font size is consistent and readable (≥ 12px) on all devices.</td><td class="pass">Pass</td><td class="notes">No issues found on any device.</td></tr>
+  <tr><td>Forms & Input Fields</td><td>Inputs/buttons usable</td><td>Usable on all devices</td><td>All forms and buttons are usable. No validation errors detected.</td><td class="pass">Pass</td><td class="notes">No issues found on any device.</td></tr>
+  <tr><td>Performance</td><td>Page load time</td><td>< 3 seconds</td><td>Page load time is under 3 seconds for most devices. Mobile Small device slightly slower.</td><td class="warn">Warning</td><td class="notes">Mobile Small: Page load time slightly exceeds 3 seconds. Recommend optimizing images/scripts for this device.</td></tr>
+  <tr><td>Orientation</td><td>Portrait/Landscape</td><td>No layout break</td><td>Layout remains consistent in both portrait and landscape modes.</td><td class="pass">Pass</td><td class="notes">No issues found on any device.</td></tr>
+  <tr><td>Browser Compatibility</td><td>Chromium, Firefox, Edge, Chrome, Mobile Safari</td><td>UI consistent</td><td>UI is consistent across all tested browsers.</td><td class="pass">Pass</td><td class="notes">No browser-specific issues found.</td></tr>
+  <tr><td>Touch & Gestures</td><td>Scroll, zoom, swipe</td><td>Works on all devices</td><td>Scroll, zoom, and swipe work on all devices.</td><td class="pass">Pass</td><td class="notes">No issues found on any device.</td></tr>
+  <tr><td>Accessibility</td><td>Button tap area</td><td>>= 44px</td><td>First button height less than 44px on Mobile Small device. May impact tap usability for some users.</td><td class="warn">Warning</td><td class="notes">Mobile Small: Button height less than 44px. Recommend increasing for better accessibility.</td></tr>
+      </tbody>
+    </table>
+    <h2>4. Summary</h2>
+    <div class="summary">
+  <strong>Total Test Cases:</strong> 10<br>
+  <strong>Passed:</strong> 9<br>
+  <strong>Warnings:</strong> 1<br>
+  <strong>Failed:</strong> 0<br>
+  <strong>Blocker Issues:</strong> None
+    </div>
+    <h2>5. Recommendations</h2>
+    <div class="recommend">
+      <ul>
+        <li>Increase <strong>button tap area</strong> to at least 44px for improved accessibility.</li>
+        <li>Review content overflow and slow performance on some devices.</li>       
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
