@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page Functionality Test Report - Online Security Clearance System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+      margin: 0; padding: 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 8px 32px rgba(44,62,80,0.12);
+      padding: 40px 48px;
+      position: relative;
+      overflow: hidden;
+    }
+    h1 {
+      color: #1a237e;
+      margin-bottom: 12px;
+      font-size: 2.6em;
+      letter-spacing: 1px;
+      text-shadow: 0 2px 8px rgba(44,62,80,0.08);
+    }
+    h2 {
+      color: #3949ab;
+      margin-top: 36px;
+      font-size: 1.4em;
+      border-left: 4px solid #3949ab;
+      padding-left: 12px;
+    }
+    .subtitle {
+      color: #5c6bc0;
+      margin-bottom: 28px;
+      font-size: 1.15em;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      margin-top: 28px;
+      background: #f5f7fa;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(44,62,80,0.06);
+    }
+    th, td {
+      padding: 16px 14px;
+      text-align: left;
+      font-size: 1.05em;
+    }
+    th {
+      background: linear-gradient(90deg, #3949ab 0%, #5c6bc0 100%);
+      color: #fff;
+      font-weight: 700;
+      border-bottom: 3px solid #e3e7ed;
+      letter-spacing: 0.5px;
+    }
+    tr {
+      border-bottom: 1px solid #e3e7ed;
+      transition: background 0.2s;
+    }
+    tr:hover {
+      background: #e3e7ed;
+    }
+    tr:last-child {
+      border-bottom: none;
+    }
+    td.pass {
+      color: #27ae60;
+      font-weight: bold;
+      background: #eafaf1;
+      border-radius: 6px;
+      text-align: center;
+    }
+    td.fail {
+      color: #e74c3c;
+      font-weight: bold;
+      background: #fdecea;
+      border-radius: 6px;
+      text-align: center;
+    }
+    td.warn {
+      color: #f7c948;
+      font-weight: bold;
+      background: #fffbe6;
+      border-radius: 6px;
+      text-align: center;
+    }
+    .notes {
+      font-size: 0.98em;
+      color: #888;
+    }
+    .summary {
+      margin: 28px 0;
+      font-size: 1.15em;
+      background: #e3e7ed;
+      border-radius: 10px;
+      padding: 18px 24px;
+      box-shadow: 0 2px 8px rgba(44,62,80,0.06);
+    }
+    .recommend {
+      background: #fffbe6;
+      border-left: 5px solid #f7c948;
+      padding: 16px 22px;
+      margin-top: 22px;
+      border-radius: 8px;
+      font-size: 1.05em;
+      box-shadow: 0 2px 8px rgba(44,62,80,0.04);
+    }
+    @media (max-width: 700px) {
+      .container { padding: 18px 6px; }
+      table, th, td { font-size: 0.98em; }
+      h1 { font-size: 1.5em; }
+      h2 { font-size: 1.1em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+      <h1>Test Report</h1>
+    <h2>1. Test Information</h2>
+    <ul>
+      
+      <li><strong>Project Name:</strong> Online Security Clearance System</li>
+      <li><strong>Test Type:</strong> Home Page Functionality</li>
+      <li><strong>Application URL:</strong> <a href="https://uat-moha.oss.net.bd/" target="_blank">https://uat-moha.oss.net.bd/</a></li>
+      <li><strong>Tester Name:</strong> Mohammad Abdulla Al Mamun</li>
+      <li><strong>Test Date:</strong> August 27, 2025</li>
+      <li><strong>Environment:</strong> Windows 10, Playwright (Chromium, Edge), Automated Devices</li>
+    </ul>
+    <h2>2. Test Scenarios</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Test no.</th><th>Test Area</th><th>Scenario</th><th>Expected Result</th><th>Actual Result</th><th>Status (Pass/Fail)</th><th>Remarks</th>
+        </tr>
+      </thead>
+      <tbody>
+    <tr><td>1</td><td>Page Load</td><td>Open home page</td><td>Page loads successfully</td><td>Page loaded and displayed 'Online Security Clearance System'</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+    <tr><td>2</td><td>Dual Citizenship</td><td>Heading visible & clickable</td><td>Heading is visible and clickable</td><td>Heading found and clicked</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+    <tr><td>3</td><td>Dual Citizenship</td><td>Download Guideline link</td><td>Link is visible and functional</td><td>Link found, clicked, href validated</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+    <tr><td>4</td><td>Police Clearance (Spain)</td><td>Heading visible & clickable</td><td>Heading is visible and clickable</td><td>Heading found and clicked</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+    <tr><td>5</td><td>Police Clearance (Spain)</td><td>Download Guideline link</td><td>Link is visible and functional</td><td>Link found, clicked, href validated</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+    <tr><td>6</td><td>Bangladesh Citizenship</td><td>Heading visible & clickable</td><td>Heading is visible and clickable</td><td>Heading found and clicked</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+    <tr><td>7</td><td>Bangladesh Citizenship</td><td>Download Guideline link</td><td>Link is visible and functional</td><td>Link found, clicked, href validated</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+    <tr><td>8</td><td>Foreigner Security Clearance</td><td>Heading visible & clickable</td><td>Heading is visible and clickable</td><td>Heading found and clicked</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+    <tr><td>9</td><td>Foreigner Security Clearance</td><td>Download Guideline link</td><td>Link is visible and functional</td><td>Link found, clicked, href validated</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+    <tr><td>10</td><td>Security Clearance for Govt. Job</td><td>Heading visible & clickable</td><td>Heading is visible and clickable</td><td>Heading found and clicked</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+    <tr><td>11</td><td>Security Clearance for Govt. Job</td><td>Download Guideline link</td><td>Link is visible and functional</td><td>Link found, clicked, href validated</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+    <tr><td>12</td><td>Important Links</td><td>Heading visible & clickable</td><td>Heading is visible and clickable</td><td>Heading found and clicked</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+    <tr><td>13</td><td>Important Links</td><td>Ministry of Home Affairs link</td><td>Link is visible and clickable</td><td>Link found and clicked</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+    <tr><td>14</td><td>Important Links</td><td>Bangladesh Investment Development Authority link</td><td>Link is visible and clickable</td><td>Link found and clicked</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+    <tr><td>15</td><td>Important Links</td><td>Bangladesh Economic Zones Authority link</td><td>Link is visible and clickable</td><td>Link found and clicked</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+    <tr><td>16</td><td>Important Links</td><td>Bangladesh Export Processing Zones Authority link</td><td>Link is visible and clickable</td><td>Link found and clicked</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+  <tr><td>17</td><td>Important Links</td><td>Bangladesh Hi-Tech Park Authority link</td><td>Link is visible and clickable</td><td>Link found and clicked</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+  <tr><td>18</td><td>Others</td><td>Heading visible & clickable</td><td>Heading is visible and clickable</td><td>Heading found and clicked</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+  <tr><td>19</td><td>Others</td><td>Privacy Policy link</td><td>Link is visible and clickable</td><td>Link found, clicked, content validated</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+  <tr><td>20</td><td>Others</td><td>Terms of Condition link</td><td>Link is visible and clickable</td><td>Link found, clicked, content validated</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+  <tr><td>21</td><td>At a Glance</td><td>Link visible & clickable</td><td>Link is visible and clickable</td><td>Link found, clicked, content validated</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+  <tr><td>22</td><td>FAQ</td><td>Link visible & clickable</td><td>Link is visible and clickable</td><td>Link found, clicked, content validated</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+  <tr><td>23</td><td>Help</td><td>Link visible & clickable</td><td>Link is visible and clickable</td><td>Link found and clicked</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+  <tr><td>24</td><td>Notice</td><td>Link visible & clickable</td><td>Link is visible and clickable</td><td>Link found, clicked, content validated</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+  <tr><td>25</td><td>Administrative Login</td><td>Login form visible & functional</td><td>Form is visible, credentials entered, login successful</td><td>Login performed, success message validated</td><td class="pass">Pass</td><td class="notes">No issues found.</td></tr>
+  <tr><td>26</td><td>Final Validation</td><td>All main flows tested</td><td>All flows executed without error</td><td>All expected results validated</td><td class="pass">Pass</td><td class="notes">End-to-end test completed successfully.</td></tr>
+      </tbody>
+    </table>
+    <h2>3. Summary</h2>
+    <div class="summary">
+    <strong>Total Test Cases:</strong> 26<br>
+    <strong>Passed:</strong> 26<br>
+  <strong>Failed:</strong> 0<br>
+  <strong>Warnings:</strong> 0<br>
+  <strong>Blocker Issues:</strong> None<br>
+  <strong>Status:</strong> <span class="pass">All checks passed</span>
+    </div>
+    <h2>4. Recommendations</h2>
+    <div class="recommend">
+      <ul>
+        <li>All tested functionality passed. No issues found.</li>
+        <li>Continue monitoring for future UI or functional changes.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
